@@ -1,0 +1,46 @@
+{
+  "name": "tgfilestream",
+  "description": "A Telegram bot that can stream Telegram files to users over HTTP. ,
+  "keywords": [
+    "telegram",
+    "best",
+    "indian",
+    "pyrogram",
+    "torrent",
+    "3",
+    "plugin",
+    "modular",
+    "productivity",
+    "youtube-dl",
+    "leecher"
+  ],
+  "repository": "https://github.com/sumitbot/tgfilestream,
+  "success_url": "https://telegram.dog/publicdrive",
+  "website": "https://t.me/symit",
+  "env": {
+    "TG_API_ID": {
+      "description": "required) - Your Telegram API ID.",
+      "value": ""
+    },
+    "TG_API_HASH": {
+      "description": "(required) - Your Telegram API hash.",
+      "value": ""
+    },
+    "TG_SESSION_NAME": {
+      "description": "(defaults to tgfilestream) - The name of the Telethon session file to use.",
+      "value": ""
+    }
+  },
+  "addons": [
+  ],
+  "buildpacks": [{
+    
+    "url": "heroku/python"
+  }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
