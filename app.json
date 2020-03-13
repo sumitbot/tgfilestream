@@ -14,7 +14,7 @@
     "youtube-dl",
     "leecher"
   ],
-  "repository": "https://github.com/sumitbot/tgfilestream,
+  "repository": "https://github.com/sumitbot/tgfilestream",
   "success_url": "https://telegram.dog/publicdrive",
   "website": "https://t.me/symit",
   "env": {
